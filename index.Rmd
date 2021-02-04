@@ -8,6 +8,15 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+git status 
+
+git add -A 
+
+git commit -am '<message>' 
+
+git push 
+
+git pull
 
 ## R Markdown
 
@@ -28,8 +37,4 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
-git status #checks current status of repository
-git add -A # adds altered and untracked iles to staging area
-git commit -am '<message>' #commit changes with message
-git push #push committed changes up to GitHub
-git pull #pull any changes from GitHub to local repo
+
