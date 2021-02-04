@@ -1,0 +1,6 @@
+# list of files an dfile types not tracked by Git
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.pdf
